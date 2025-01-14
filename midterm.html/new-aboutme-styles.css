@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Emoji&display=swap');
+
+:root{
+    --darkblue: #0267c7;
+    --secondarytxt-size: 18px;
+    --secondarytxt-color: #E5E7EB;
+    --accent-color: #ffffff;
+    --quoteBG: #f3f3f3;
+    --sectionheight: 500px;
+    --logo-hero-color: #F9FAF8;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+.aboutme {
+  width: 100%;
+  margin: 30px auto;
+  background-color: rgb(255, 172, 15);
+  padding: 20px;
+  border-radius: 8px;
+}
+h1 {
+  font-size: 36px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.class {
+    width: 100%;
+    margin: 30px auto;
+    background-color: rgb(255, 242, 204);
+    padding: 20px;
+    border-radius: 8px;
+}
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-top: 20px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+}
+p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+b {
+  color: #FF6347;
+}
+ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.mood {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  margin: 10px;
+  display: inline-block;
+  background-color: rgb(213, 232, 212);
+}
+.links img {
+  width: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.fact-title {
+  font-size: 24px;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.fun {
+  display: inline-block;
+  background-color: r,g,b(213,232,212);
+  color: white;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
